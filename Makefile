@@ -35,6 +35,8 @@ readme:
 
 # If git prompts for a username, execute "git remote" as described in the
 # entry at 20131102.1129 in the notes file; this need only be done once.
+# Warning: set the respository name on the end of the command or you will
+# corrupt the repository.
 
 commit:
 	make clean
@@ -47,4 +49,7 @@ commit-only:
 	make clean
 	git add .
 	git commit -am "commit from Makefile $(timestamp)"
+
+notes:
+	(cd ../notes && make vi)
 
