@@ -22,11 +22,10 @@ I have watched skilled programmers vie to out-do each other on this seemingly tr
 problem. Asked sheepishly by an interviewer to code up a solution ("please don't be
 offended"), any of them could do it straightforwardly in a minute. Yet on a forum like
 [HN](http://news.ycombinator.com), they put forth elegant, beautiful, bizarre, or
-terrifying implementations of fizzbuzz whose only purpose is to insert joy into the
-soul of a programmer. I haven't solved it in Haskell, or Verilog, or by running a DFA
-over a circularly linked list, or by bit-twiddling simulated flip-flops in C, but here
-is my solution, a fairly elegant implementation, I think, that follows good software
-engineering practice.
+terrifying implementations whose only purpose is to insert joy into the soul of a
+programmer. I haven't solved it in Haskell, or Verilog, or by running a DFA over a
+circularly linked list, or by bit-twiddling simulated flip-flops in C, but here is my
+solution, one that follows good software engineering practice.
 
 There are all kinds of other ways I can think of to do this, using pointer aliasing side
 effects in C, self-modifying code in machine language, maybe using the bit mask counting
@@ -39,7 +38,22 @@ A good solution to the problem is to define a function that returns the product
 of the modular residues, then print the number if the function returns anything
 other than zero.
 
-It is a solution I have not seen published elsewhere.
+```
+int fizzbuzz(int i) {
+	if (!(i % 3)) printf("fizz");
+	if (!(i % 5)) printf("buzz");
+	return i%3 * i%5;
+}
+
+int n;
+
+for (n=1; n<=100; n++) {
+	if (fizzbuzz(n)) printf ("%d", n);
+	printf ("\n");
+}
+```
+
+I have not seen this solution published elsewhere.
 
 References
 ----------
