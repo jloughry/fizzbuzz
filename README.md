@@ -21,7 +21,7 @@ Watch *this!*
 I have watched skilled programmers vie to out-do each other on this seemingly trivial
 problem. Asked sheepishly by an interviewer to code up a solution ("please don't be
 offended"), any of them could do it straightforwardly in a minute. Yet on a forum like
-[http://news.ycombinator.com](HN), they put forth elegant, beautiful, bizarre, or
+[HN](http://news.ycombinator.com), they put forth elegant, beautiful, bizarre, or
 terrifying implementations of fizzbuzz whose only purpose is to insert joy into the
 soul of a programmer. I haven't solved it in Haskell, or Verilog, or by running a DFA
 over a circularly linked list, or by bit-twiddling simulated flip-flops in C, but here
