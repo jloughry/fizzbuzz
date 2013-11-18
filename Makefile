@@ -1,4 +1,5 @@
 target = fizzbuzz
+
 source = $(target).c
 
 CC = gcc
