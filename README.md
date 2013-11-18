@@ -13,23 +13,24 @@ ride&rdquo; gate at the entrance to the interview; deal with it. Some people mis
 it and get upset.
 
 I am always surprised when I run across people who have never heard of it. Of course, the
-boss at my last job had never heard of GitHub, either.
+boss at my last job had never heard of GitHub.
 
 Watch *this!*
 -------------
 
-I have seen skilled programmers vie to out-do each other on this seemingly trivial
-problem. Asked sheepishly by an interviewer to code up a solution, any of them could do
-it straightforwardly in a minute. Yet on a forum like HN, they put forth masterworks
-of elegant, beautiful, bizarre, or terrifying implementations of fizzbuzz whose only
-purpose is to insert joy into the soul of a programmer. I haven't solved it in Haskell,
-or Verilog, or by running a DFA over a circularly linked list, or by bit-twiddling
-simulated flip-flops in C, but here is my solution, a fairly elegant implementation, I
-think, that follows good software engineering practice.
+I have watched skilled programmers vie to out-do each other on this seemingly trivial
+problem. Asked sheepishly by an interviewer to code up a solution ("please don't be
+offended"), any of them could do it straightforwardly in a minute. Yet on a forum like
+[http://news.ycombinator.com](HN), they put forth elegant, beautiful, bizarre, or
+terrifying implementations of fizzbuzz whose only purpose is to insert joy into the
+soul of a programmer. I haven't solved it in Haskell, or Verilog, or by running a DFA
+over a circularly linked list, or by bit-twiddling simulated flip-flops in C, but here
+is my solution, a fairly elegant implementation, I think, that follows good software
+engineering practice.
 
-All kinds of other ways I can think of to do this, using pointer aliasing side effects
-in C, self-modifying code in machine language, maybe using the bit mask counting trick
-in HAKMEM 169....
+There are all kinds of other ways I can think of to do this, using pointer aliasing side
+effects in C, self-modifying code in machine language, maybe using the bit mask counting
+trick in HAKMEM 169....
 
 My solution
 -----------
