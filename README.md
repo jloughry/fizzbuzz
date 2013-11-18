@@ -43,6 +43,6 @@ It is a solution I have not seen published elsewhere.
 References
 ----------
 
-[1] <a name="ref1"/>Jeff Atwood, *Why Can't Programmers...Program?* (2007).
-http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html
+1. <a name="ref1"/>Jeff Atwood, "Why Can't Programmers...Program?" The *Coding Horror*
+blog (2007).  http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html
 
