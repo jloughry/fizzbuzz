@@ -1,10 +1,10 @@
 fizzbuzz
 ========
 
-**Fizzbuzz** is a fascinating meta-phenomenon. As a quick test to see if a programming
-job candidate can code *at all*, it's a rapid-fire way to weed out the estimated thirty
-to forty percent of people whose résumés look impressive but can't actually program. It's
-an extremely elementary probem, solvable with nothing more than arithmetic and basic
+**Fizzbuzz** is a fascinating meta-phenomenon. As a quick test to see if a job candidate
+can code *at all*, it's a rapid-fire way to weed out the estimated thirty to forty
+percent of people whose résumés look impressive but can't actually program [1][1].
+It's an extremely elementary probem, solvable with nothing more than arithmetic and basic
 control structures, and it really doesn't serve the same purpose as asking programmers to
 write a binary search. That &ldquo;other&rdquo; classic experiment (Jon Bentley's on
 binary search) was all about boundary conditions and clear thinking and simulating code
@@ -39,4 +39,11 @@ of the modular residues, then print the number if the function returns anything
 other than zero.
 
 It is a solution I have not seen published elsewhere.
+
+References
+----------
+
+[1]: Jeff Atwood, *Why Can't Programmers...Program?*
+[http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html](Coding Horror)
+blog, 2007.
 
