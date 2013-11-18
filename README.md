@@ -6,10 +6,11 @@ job candidate can code *at all*, it's a rapid-fire way to weed out the estimated
 to forty percent of people whose résumés look impressive but can't actually program. It's
 an extremely elementary probem, solvable with nothing more than arithmetic and basic
 control structures, and it really doesn't serve the same purpose as asking programmers to
-write a binary search. That &ldquo;other&rdquo; classic experiment is all about boundary
-conditions and clear thinking and simulating code in your head. Fizzbuzz is a different
-animal. It's a &ldquo;you must be *this* tall to ride&rdquo; gate at the entrance to the
-interview; deal with it. Some people misunderstand it and get upset.
+write a binary search. That &ldquo;other&rdquo; classic experiment (Jon Bentley's on
+binary search) was all about boundary conditions and clear thinking and simulating code
+in your head. Fizzbuzz is a different animal. It's a &ldquo;you must be *this* tall to
+ride&rdquo; gate at the entrance to the interview; deal with it. Some people misunderstand
+it and get upset.
 
 I am always surprised when I run across people who have never heard of it.
 
@@ -32,5 +33,5 @@ A good solution to the problem is to define a function that returns the product
 of the modular residues, then print the number if the function returns anything
 other than zero.
 
-This is a solution I have not seen published elsewhere.
+It is a solution I have not seen published elsewhere.
 
