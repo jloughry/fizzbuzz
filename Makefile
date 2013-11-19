@@ -24,7 +24,7 @@ rename:
 	mv $(target).exe $(target)
 
 clean:
-	$(RM) $(target)
+	$(RM) $(target) $(documentation).bak
 
 vi:
 	$(EDITOR) $(source)
