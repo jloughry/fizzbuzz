@@ -23,12 +23,12 @@ problem. Asked sheepishly by an interviewer to code up a solution ("please don't
 offended"), any of them could do it straightforwardly in a minute. Yet on a forum like
 [HN](http://news.ycombinator.com), they put forth elegant, beautiful, bizarre, or
 terrifying implementations whose only purpose is to insert joy into the soul of a
-programmer. *There are a thousand *fizbuzz* repositories on GitHub.*<sup>[2](#ref2)</sup>
-I haven't solved it in Haskell, or Verilog, or by running a DFA over a circularly
-linked list, or by bit-twiddling simulated flip-flops in C, but here is my solution,
-one that follows good software engineering practice. It's extensible, but mindful of
-YAGNI. It compiles with no warnings. It has documentation, and tests, and a build
-procedure. "My God &mdash; it even has a ~~watermark~~ license."
+programmer. *There are a over thousand* fizbuzz *repositories on GitHub.*<sup>[2](#ref2)</sup>
+It's like doing crossword puzzles; I haven't solved it in Haskell, or Verilog, or by
+running a DFA over a circularly linked list, or by bit-twiddling simulated flip-flops
+in C, but here is my solution, one that follows good software engineering practice. It's
+extensible, but mindful of YAGNI. It compiles with no warnings. It has documentation,
+and tests, and a build procedure. "My God &mdash; it even has a ~~watermark~~license."
 
 There are all kinds of other ways I can think of to do this, using pointer aliasing side
 effects in C, self-modifying code in machine language, maybe using the bit mask counting
