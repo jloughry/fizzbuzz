@@ -4,7 +4,7 @@ fizzbuzz
 **Fizzbuzz** is a fascinating meta-phenomenon. As a quick test to see if a job candidate
 can code *at all*, it's a rapid-fire way to weed out the estimated thirty to forty
 percent of people whose résumés look impressive but can't actually program.<sup>[1](#ref1)</sup>
-It's an extremely elementary problem, solvable with nothing more than arithmetic and basic
+It's an extremely elementary probem, solvable with nothing more than arithmetic and basic
 control structures, and it really doesn't serve the same purpose as asking programmers to
 write a binary search. That &ldquo;other&rdquo; classic experiment (Jon Bentley's)
 was all about boundary conditions and clear thinking and simulating code

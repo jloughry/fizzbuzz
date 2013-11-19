@@ -1,6 +1,7 @@
 target = fizzbuzz
 
 source = $(target).c
+documentation = README.md
 
 CC = gcc
 compiler-options = -Wall
@@ -32,7 +33,10 @@ test:
 	./$(target)
 
 readme:
-	$(EDITOR) README.md
+	$(EDITOR) $(documentation)
+
+spell:
+	aspell --lang="en" check $(documentation)
 
 # If git prompts for a username, execute "git remote" as described in the
 # entry at 20131102.1129 in the notes file; this need only be done once.
