@@ -6,8 +6,8 @@ can code *at all*, it's a rapid-fire way to weed out the estimated thirty to for
 percent of people whose résumés look impressive but can't actually program.<sup>[1](#ref1)</sup>
 It's an extremely elementary probem, solvable with nothing more than arithmetic and basic
 control structures, and it really doesn't serve the same purpose as asking programmers to
-write a binary search. That &ldquo;other&rdquo; classic experiment (Jon Bentley's on
-binary search) was all about boundary conditions and clear thinking and simulating code
+write a binary search. That &ldquo;other&rdquo; classic experiment (Jon Bentley's)
+was all about boundary conditions and clear thinking and simulating code
 in your head. Fizzbuzz is a different animal. It's a &ldquo;you must be *this* tall to
 ride&rdquo; gate at the entrance to the interview; deal with it. Some people misunderstand
 it and get upset.
@@ -23,9 +23,12 @@ problem. Asked sheepishly by an interviewer to code up a solution ("please don't
 offended"), any of them could do it straightforwardly in a minute. Yet on a forum like
 [HN](http://news.ycombinator.com), they put forth elegant, beautiful, bizarre, or
 terrifying implementations whose only purpose is to insert joy into the soul of a
-programmer. I haven't solved it in Haskell, or Verilog, or by running a DFA over a
-circularly linked list, or by bit-twiddling simulated flip-flops in C, but here is my
-solution, one that follows good software engineering practice.
+programmer. *There are a thousand *fizbuzz* repositories on GitHub.*<sup>[2](#ref2)</sup>
+I haven't solved it in Haskell, or Verilog, or by running a DFA over a circularly
+linked list, or by bit-twiddling simulated flip-flops in C, but here is my solution,
+one that follows good software engineering practice. It's extensible, but mindful of
+YAGNI. It compiles with no warnings. It has documentation, and tests, and a build
+procedure. "My God &mdash; it even has a ~~watermark~~ license."
 
 There are all kinds of other ways I can think of to do this, using pointer aliasing side
 effects in C, self-modifying code in machine language, maybe using the bit mask counting
@@ -35,7 +38,7 @@ My solution
 -----------
 
 A good solution to the problem is to define a function that returns the product
-of the modular residues, then print the number if the function returns anything
+of the modular residues, then print the number if that function returns anything
 other than zero.
 
 ```
@@ -58,6 +61,9 @@ I have not seen this solution published elsewhere.
 References
 ----------
 
-1. <a name="ref1"/>Jeff Atwood, "Why Can't Programmers...Program?" The *Coding Horror*
+1. <a name="ref1"/>Jeff Atwood. "Why Can't Programmers...Program?". The *Coding Horror*
 blog (2007).  http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html
+
+2. <a name="ref2"/>Dave Fecak. "Hiring Indicators, OSS, and the Value of GitHub". *Job
+Tips for Geeks* blog (2013). http://jobtipsforgeeks.com/2013/11/19/githubhiring/
 
