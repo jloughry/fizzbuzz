@@ -6,7 +6,7 @@ CC = gcc
 compiler-options = -Wall
 RM = rm -f
 
-all: $(target)
+all:: $(target)
 
 $(target): $(source) Makefile
 	$(CC) $(compiler-options) -o $(target) $(source)
@@ -15,7 +15,7 @@ $(target): $(source) Makefile
 rename:
 	mv $(target).exe $(target)
 
-clean:
+clean::
 	$(RM) $(target)
 
 vi:
