@@ -3,7 +3,7 @@ target = fizzbuzz
 source = $(target).c
 
 CC = gcc
-compiler-options = -Wall
+compiler-options = -Wall -Werror
 RM = rm -f
 
 all:: $(target)
