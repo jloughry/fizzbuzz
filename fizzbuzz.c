@@ -3,13 +3,13 @@
 
 int fizzbuzz(int);
 
-/* Handle the words in the obvious way (using fallthrough), but at the same
-   time return the product of the modular residues. Let the compiler optimize
-   out the common subexpression. The goal here is clarity of expression. The
-   function has benign side effects---printing the words---but is otherwise
-   pure functional. It's extensible, but I didn't add the extra functionality
-   for help, USAGE, command line arguments to make it work for any $n$ (with
-   sanitisation of user input of course) or 64-bit integers because YAGNI. */
+/* Handle the words in the obvious way (using fallthrough and side
+   effects from the function), but at the same time return the product
+   of the modular residues. Let the compiler optimize out the common
+   subexpression. The goal here is clarity of expression. The function
+   has benign side effects, i.e., printing the words, but is otherwise
+   purely functional. It's extensible. Cf. other version for a more
+   highly engineered version of the thing. */
 
 int fizzbuzz(int i) {
 	if (!(i % 3)) printf("fizz");

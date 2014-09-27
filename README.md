@@ -59,6 +59,19 @@ for (n=1; n<=100; n++) {
 
 I have not seen this solution published elsewhere.
 
+Enterprise Edition
+------------------
+
+Good software engineering practice defends against failure by checking
+*all* return codes, using appropriate data types (such as `unsigned`
+and `long` to enforce limits and avoid overflows), employing assertions
+to validate preconditions and postconditions, and providing expected
+features such as help, undo, or mobile versions.
+
+Compare the sizes of `fizzbuzz.c` with `fizzbuzz_enterprise.c` (and
+`fizzbuzz_enterprise.h` to get an idea of how much larger the resulting
+source code is.
+
 References
 ----------
 
